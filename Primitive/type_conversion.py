@@ -7,3 +7,8 @@ print(f"x: {x}, y: {y}")
 # float(x)
 # bool(x)
 # str(x)
+
+## Boolean Falsy Value
+# ""
+# 0
+# None

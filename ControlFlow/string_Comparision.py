@@ -1,0 +1,5 @@
+print("bag" > "apple")
+print("bag" > "cat")
+print("bag" == "BAG")
+print(ord("b"))
+print(ord("B"))
