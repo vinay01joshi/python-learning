@@ -1,6 +1,6 @@
-def increment(number, by):
+def increment(number, by=1):
     return number + by
 
 
 # Here by=1 is keyword argument.
-print(increment(2, by=3))
+print(increment(2, 3))
