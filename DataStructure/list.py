@@ -27,3 +27,13 @@ print(letters)
 number = list(range(20))
 print(number[::2])
 print(number[::-1])
+
+# UnPacking numbers in List
+num = [1, 2, 3, 4, 5, 6, 7, 8]
+first, second, thrid, *others = num
+first, *other, last = num
+print(first)
+print(second)
+print(thrid)
+print(others)
+print(last)
