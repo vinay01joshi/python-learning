@@ -49,3 +49,15 @@ for letter in enumerate(letters):
 # unpacking veraible in for loop
 for index, letter in enumerate(letters):
     print(index, letter)
+
+# adding and removing items in list
+letters.append("e")
+letters.insert(0, "-")
+print(letters)
+letters.pop()
+letters.pop(0)
+letters.remove("c")
+del letters[0]
+del letters[0:1]
+letters.clear()
+print(letters)
