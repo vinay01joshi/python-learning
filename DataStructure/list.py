@@ -37,3 +37,15 @@ print(second)
 print(thrid)
 print(others)
 print(last)
+
+# Iteration list
+for letter in letters:
+    print(letter)
+
+# enumerate return touples here
+for letter in enumerate(letters):
+    print(letter[0], letter[1])
+
+# unpacking veraible in for loop
+for index, letter in enumerate(letters):
+    print(index, letter)
