@@ -61,3 +61,9 @@ del letters[0]
 del letters[0:1]
 letters.clear()
 print(letters)
+
+# Finding items in List
+characters = ["a", "b", "c", "d", "e"]
+print(characters.count("f"))
+if "f" in characters:
+    print(characters.index("f"))
