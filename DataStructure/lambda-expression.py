@@ -22,3 +22,7 @@ print(prices)
 # Map function converting from one form to antoher
 prices = list(map(lambda item: item[1], items))
 print(prices)
+
+
+# Filter items in list
+print(list(filter(lambda item: item[1] >= 20, items)))
