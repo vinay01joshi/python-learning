@@ -1,0 +1,5 @@
+point = (1, 2) + (3, 4)
+listtuple = tuple([1, 2])
+print(type(point))
+print(point)
+print(listtuple)
