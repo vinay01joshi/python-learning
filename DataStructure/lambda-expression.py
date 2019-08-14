@@ -11,4 +11,14 @@ items = [
 ]
 
 items.sort(key=lambda item: item[1])
+
+prices = []
+for item in items:
+    prices.append(item[1])
+
 print(items)
+print(prices)
+
+# Map function converting from one form to antoher
+prices = list(map(lambda item: item[1], items))
+print(prices)
