@@ -22,4 +22,5 @@ class Fish(Animal):
 
 m = Mamel()
 m.eat()
-print(m.age)
+print(isinstance(m, Animal))
+print(issubclass(Mamel, Animal))
