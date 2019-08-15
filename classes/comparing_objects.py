@@ -19,3 +19,6 @@ point = Point(3, 3)
 other = Point(1, 2)
 print(point == other)
 print(point > other)
+
+# if we implement __gt__ no need to work with < __lt__ method python will handle this automaticall
+print(point < other)
