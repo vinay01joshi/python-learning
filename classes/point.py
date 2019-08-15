@@ -7,16 +7,14 @@ class Point:
         self.x = x
         self.y = y
 
+    # class level method
+    @classmethod
+    def zero(cls):
+        return cls(0, 0)
+
     def draw(self):
         print(f"Point({self.x},{self.y})")
 
 
-point = Point(1, 2)
-point.z = 11
-Point.default_color = "Yellow"
+point = Point.zero()
 point.draw()
-print(point.default_color)
-print(Point.default_color)
-
-point2 = Point(5, 6)
-point2.draw()
