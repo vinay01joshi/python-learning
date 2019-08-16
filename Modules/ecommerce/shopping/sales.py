@@ -1,5 +1,3 @@
-from ecommerce.customer import contact
-from ..customer import contact
 
 
 def calc_tax():
@@ -8,3 +6,8 @@ def calc_tax():
 
 def calc_shipping():
     pass
+
+
+if __name__ == "__main__":
+    print("Sales Started")
+    calc_shipping()
