@@ -7,3 +7,4 @@ Python Learning
  - Array In Python ['https://docs.python.org/3/library/array.html']
 
  - Guide of Pyhons' Magic Mthod [https://rszalski.github.io/magicmethods/]
+ - Python 3 Path Lib [https://docs.python.org/3/library/pathlib.html]
