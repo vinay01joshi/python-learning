@@ -10,3 +10,7 @@ Python Learning
  - Python 3 Path Lib [https://docs.python.org/3/library/pathlib.html]
  - Python 3 DateTime [https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior]
  - Python Package Manager [https://pypi.org/]
+
+## Commands
+ - To crate a virtual environment [`python -m venv env`]
+ 
