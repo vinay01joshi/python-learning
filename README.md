@@ -12,5 +12,7 @@ Python Learning
  - Python Package Manager [https://pypi.org/]
 
 ## Commands
- - To crate a virtual environment [`python -m venv env`]
- 
+ - To crate a virtual environment [ `python -m venv env` ]
+ - To Install pipenv [ `pip install pipenv `]
+ - To check where the pipenv is located [` pipenv --venv `]
+ - To activate the pipenv viratul env [ ` pipenv shell ` ] to exit from env type exit
