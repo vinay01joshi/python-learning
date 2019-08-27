@@ -18,3 +18,4 @@ Python Learning
  - To activate the pipenv viratul env [ ` pipenv shell ` ] to exit from env type exit
  - Install package from pip file [` pipenv insall `]
  - Install packages from pipfile.lock [` pipenv install --ignore-pipfile`]
+ - setup tool for create a own package [` pip install setuptools wheel twine`]

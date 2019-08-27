@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bb57e0d7853b45999e47c163c46b95bc2fde31c527d8d7b5b5539dc979444a6d"
+            "sha256": "faa2537bd4d77d59a6ada58688edcb97ef9336578ac48721d4dd7849e64d9bed"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -51,6 +51,14 @@
                 "sha256:dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232"
             ],
             "version": "==1.25.3"
+        },
+        "vinpdf": {
+            "hashes": [
+                "sha256:2275b355843a856418b26aabdacc837918c26572a51076b991de3adf6926cffb",
+                "sha256:70c04253a01ae99b5b0f29b4c20c63abd71bdb1f5e6c73e7f8f268bafb710027"
+            ],
+            "index": "pypi",
+            "version": "==1.0"
         }
     },
     "develop": {}
