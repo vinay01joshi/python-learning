@@ -16,3 +16,5 @@ Python Learning
  - To Install pipenv [ `pip install pipenv `]
  - To check where the pipenv is located [` pipenv --venv `]
  - To activate the pipenv viratul env [ ` pipenv shell ` ] to exit from env type exit
+ - Install package from pip file [` pipenv insall `]
+ - Install packages from pipfile.lock [` pipenv install --ignore-pipfile`]
